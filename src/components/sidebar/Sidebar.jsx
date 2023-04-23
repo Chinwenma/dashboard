@@ -14,33 +14,41 @@ export default function Sidebar() {
             <hr />
             <div className="center" >
                 <ul>
+                    <p className="title">MAIN</p>
                     <li>
-                        <DashboardOutlinedIcon />
-                        <span>Home</span></li>
+                        <DashboardOutlinedIcon className="icon" />
+                        <span>Home</span>
+                    </li>
+                    <p className="title">DEPARTMENTS</p>
                     <li> 
-                        <SensorsOutlinedIcon />
+                        <SensorsOutlinedIcon className="icon" />
+                        <span>Admin</span>
+                    </li>
+                    <li> 
+                        <SensorsOutlinedIcon className="icon" />
                         <span>Networking</span>
                     </li>
                     <li>
-                        <LanguageOutlinedIcon />
+                        <LanguageOutlinedIcon className="icon" />
                         <span>WebDev</span>
                     </li>
                     <li>
-                        <AccountBalanceOutlinedIcon />
+                        <AccountBalanceOutlinedIcon className="icon" />
                         <span>Accountant</span>
                     </li>
                     <li>
-                        <AcUnitOutlinedIcon />
+                        <AcUnitOutlinedIcon className="icon" />
                         <span>Cyber Cafe </span>
                     </li>
+                    <p className="title">USER</p>
                     <li>
-                        <AccountBoxOutlinedIcon />
+                        <AccountBoxOutlinedIcon className="icon" />
                         <span>Profile</span>
                     </li>
-                    <li><SettingsOutlinedIcon />
+                    <li><SettingsOutlinedIcon className="icon" />
                         <span>Settings</span>
                     </li>
-                    <li><ExitToAppOutlinedIcon />
+                    <li><ExitToAppOutlinedIcon className="icon" />
                         <span>Log Out</span>
                     </li>
 

@@ -26,6 +26,35 @@
             list-style: none;
             margin: 0;
             padding: 0;
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: #9a4444;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+                &:hover{
+                    background-color: #f4e3e3;
+                    transition:0.3s ease;
+                }
+                .icon{
+                    font-size: 18px;
+                    color: #9a4444;
+              
+
+                }
+                span{
+                    font-size: 15px;
+                    font-weight: 600;
+                    color: #7a7878;
+                    margin-left: 10px;
+                }
+            }
         }
     }
         
