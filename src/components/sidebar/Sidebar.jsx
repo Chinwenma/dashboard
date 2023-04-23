@@ -17,17 +17,32 @@ export default function Sidebar() {
                     <li>
                         <DashboardOutlinedIcon />
                         <span>Home</span></li>
-                    <li> <SensorsOutlinedIcon />
-                        <span>Networking</span></li>
-                    <li><LanguageOutlinedIcon />
-                        <span>WebDev</span></li>
-                    <li><AccountBalanceOutlinedIcon />
-                        <span>Accountant</span></li>
-                    <li><AcUnitOutlinedIcon />
-                        <span>Cyber Cafe </span></li>
-                        <li><AccountBoxOutlinedIcon/><span>Profile</span></li>
-                        <li><SettingsOutlinedIcon/><span>Settings</span></li>
-                        <li><ExitToAppOutlinedIcon/><span>Log Out</span></li>
+                    <li> 
+                        <SensorsOutlinedIcon />
+                        <span>Networking</span>
+                    </li>
+                    <li>
+                        <LanguageOutlinedIcon />
+                        <span>WebDev</span>
+                    </li>
+                    <li>
+                        <AccountBalanceOutlinedIcon />
+                        <span>Accountant</span>
+                    </li>
+                    <li>
+                        <AcUnitOutlinedIcon />
+                        <span>Cyber Cafe </span>
+                    </li>
+                    <li>
+                        <AccountBoxOutlinedIcon />
+                        <span>Profile</span>
+                    </li>
+                    <li><SettingsOutlinedIcon />
+                        <span>Settings</span>
+                    </li>
+                    <li><ExitToAppOutlinedIcon />
+                        <span>Log Out</span>
+                    </li>
 
                 </ul>
             </div>
