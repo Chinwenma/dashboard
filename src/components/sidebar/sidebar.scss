@@ -57,5 +57,25 @@
             }
         }
     }
+    .bottom{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        .mode{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid darkred;
+            cursor: pointer;
+            margin: 5px;
+            &:nth-child(1){
+            background-color: #f4e3e3;
+            }
+            &:nth-child(2){
+                background-color: #333;
+                }
+               
+        }
+    }
         
 }

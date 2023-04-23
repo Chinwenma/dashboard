@@ -54,7 +54,10 @@ export default function Sidebar() {
 
                 </ul>
             </div>
-            <div className="bottom" >color <option value=""></option></div>
+            <div className="bottom" >
+                <div className="mode"></div>
+                <div className="mode"></div>
+            </div>
         </div>
     )
 }
