@@ -1,13 +1,16 @@
 import Sidebar from "../../components/sidebar/Sidebar"
 import Navbar from "../../components/navbar/Navbar"
 import "./home.scss"
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <div className="home">
-        <Sidebar />
-        <div className="homeContainer">
-        <Navbar />
-        Home Container</div>
+            <Sidebar />
+            <div className="homeContainer">
+                <Navbar />
+               <div className="widgets">
+                .
+               </div>
+            </div>
         </div>
     )
 }
