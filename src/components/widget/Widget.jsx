@@ -56,7 +56,7 @@ export default function widgets({ type }) {
                 isMoney: true,
                 link: "view balance",
                 icon: <AccountBalanceWalletOutlinedIcon className='icon' 
-                style={{color:"white", backgroundColor:" rgb(29, 14, 46)"
+                style={{color:"white", backgroundColor:" rgba(29, 14, 46,9)"
             }}/>,
 
             };
