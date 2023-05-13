@@ -1,13 +1,12 @@
 
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import "./widget.scss"
-import {
-    AccountBalanceWalletOutlinedIcon,
-    PersonOutlinedIcon,
-    ShoppingCartOutlinedIcon,
-    MonetizationOnOutlinedIcon
-} from '@mui/icons-material';
+import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
+import  PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import  ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import   MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
 
+ 
 
 export default function widgets({ type }) {
     let data;
@@ -21,7 +20,7 @@ export default function widgets({ type }) {
                 title: "USERS",
                 isMoney: false,
                 link: "see all users",
-                icon: "<PersonOutlinedIcon className='icon' />",
+                icon: <PersonOutlinedIcon className='icon' />,
 
             };
             break;
@@ -30,7 +29,7 @@ export default function widgets({ type }) {
                 title: "USERS",
                 isMoney: false,
                 link: "view all orders",
-                icon: "<ShoppingCartOutlinedIcon className='icon' />",
+                icon: (<ShoppingCartOutlinedIcon className='icon' />),
 
             };
             break;
@@ -39,7 +38,7 @@ export default function widgets({ type }) {
                 title: "EARNINGS",
                 isMoney: true,
                 link: "view net cash",
-                icon: "< MonetizationOnOutlinedIcon className='icon' />",
+                icon: < MonetizationOnOutlinedIcon className='icon' />,
 
             };
             break;
@@ -48,7 +47,7 @@ export default function widgets({ type }) {
                 title: "BALANCE",
                 isMoney: true,
                 link: "view balance",
-                icon: "<AccountBalanceWalletOutlinedIcon className='icon' />",
+                icon: <AccountBalanceWalletOutlinedIcon className='icon' />,
 
             };
             break;
