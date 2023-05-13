@@ -17,11 +17,12 @@ export default function Home() {
                     <Widget type="earnings" />
                     <Widget type="balance" />
                 </div>
-            </div>
-            <div className="charts">
+                <div className="charts">
                 <Chart />
                 <Featured />
             </div>
+            </div>
+           
         </div>
     )
 }
