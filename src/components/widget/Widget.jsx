@@ -20,16 +20,21 @@ export default function widgets({ type }) {
                 title: "USERS",
                 isMoney: false,
                 link: "see all users",
-                icon: <PersonOutlinedIcon className='icon' />,
+                icon: <PersonOutlinedIcon className='icon'  style={{color:"black", backgroundColor:" rgb(219, 146, 146)"
+            }}
+            />,
 
             };
             break;
         case "order":
             data = {
-                title: "USERS",
+                title: "ORDERS",
                 isMoney: false,
                 link: "view all orders",
-                icon: (<ShoppingCartOutlinedIcon className='icon' />),
+                icon: (<ShoppingCartOutlinedIcon className='icon'  
+                style={{color:"wheat", backgroundColor:" rgb(2, 16, 46)"
+            }}
+                />),
 
             };
             break;
@@ -38,7 +43,10 @@ export default function widgets({ type }) {
                 title: "EARNINGS",
                 isMoney: true,
                 link: "view net cash",
-                icon: < MonetizationOnOutlinedIcon className='icon' />,
+                icon: < MonetizationOnOutlinedIcon className='icon' 
+                style={{color:"white", backgroundColor:" rgb(19, 46, 16)"
+            }}
+            />,
 
             };
             break;
@@ -47,7 +55,9 @@ export default function widgets({ type }) {
                 title: "BALANCE",
                 isMoney: true,
                 link: "view balance",
-                icon: <AccountBalanceWalletOutlinedIcon className='icon' />,
+                icon: <AccountBalanceWalletOutlinedIcon className='icon' 
+                style={{color:"white", backgroundColor:" rgb(29, 14, 46)"
+            }}/>,
 
             };
             break;
