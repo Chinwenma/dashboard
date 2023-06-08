@@ -18,8 +18,8 @@ export default function Home() {
                     <Widget type="balance" />
                 </div>
                 <div className="charts">
-                <Chart />
                 <Featured />
+                <Chart />
             </div>
             </div>
            
